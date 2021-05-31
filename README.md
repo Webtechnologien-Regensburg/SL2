@@ -1,6 +1,6 @@
 ---
 title: Studienleistung 2
-author: Martin Kocur
+author: Alexander Bazo und Jakob Fehle
 documentclass: scrartcl
 classoption:
   - a4paper
@@ -21,13 +21,7 @@ header-includes: |
 
 ---
 
-## Aufgabe 1: Interaktive vs Statische Webseiten
-
-Erläutern Sie den Unterschied zwischen interaktiven und statischen Webseiten anhand eines Beispiels und gehen Sie dabei auf die Programmiersprache JavaScript ein (150 bis 250 Wörter).
-
-
-
-## Aufgabe 2: Eine kleine To-Do Liste
+## Eine kleine To-Do Liste
 
 Implementieren Sie in dieser Aufgabe mit Hilfe von JavaScript eine einfache To-Do Liste, mit der Sie über ein _Input_ - Feld Items hinzufügen können. Sobald Sie die "Enter"-Taste betätigen oder auf ein "Bestätigungs" -Icon klicken, soll ein neues Listenelement mit dem Inhalt des Inputfeldes erstellt und an eine Liste angehängt werden. Achten Sie darauf, dass keine leeren Items generiert werden können. Mit Hilfe eines Doppelklicks auf ein Listenitem, können Sie dieses auch wieder aus der Liste entfernen. [\textcolor{blue}{Hier}](https://homepages.uni-regensburg.de/~kom13409/WTSS2020/SL2/ToDoList.html) finden Sie eine kleine Demo-Anwendung, die die grundlegende Funktionalität der Liste zeigt. 
 
@@ -49,14 +43,13 @@ Die folgenden Tutorials sollen Sie dabei unterstützen, die Liste zu designen un
 
 *Abgabekriterien:*
 
-Laden Sie Ihre Antworten bis spätestens 14.6.2020 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Benennen Sie die einzelnen Dateien pro Aufgabe sinnvoll und verwenden Sie geeignete Formate:
+Laden Sie Ihre Antworten bis spätestens 18.6.2021 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Benennen Sie die einzelnen Dateien pro Aufgabe sinnvoll und verwenden Sie geeignete Formate:
 
-- Aufgabe 1: Ein PDF-Dokument mit Ihrer Lösung
-- Aufgabe 2: Das gesamte Projekt (HTML, JS, CSS)
+- Aufgabe 1: Das gesamte Projekt (HTML, JS, CSS)
 
-Der Name der Datei ergibt sich aus dem Präfix „SL_WT_SS20“, der Nr. der Studienleistung, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
+Der Name der Datei ergibt sich aus dem Präfix „SL_WT_SS21“, der Nr. der Studienleistung, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
 
  
 
-Beispiel: **SL_WT_SS20_2_Max_Mustermann.zip**
+Beispiel: **SL_WT_SS21_2_Max_Mustermann.zip**
 
