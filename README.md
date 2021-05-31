@@ -27,14 +27,14 @@ Implementieren Sie in dieser Aufgabe mit Hilfe von JavaScript eine einfache To-D
 
 Die folgenden Tutorials sollen Sie dabei unterstützen, die Liste zu designen und die Funktionalität zu implementieren:
 
-- [\textcolor{blue}{Hier}](https://developer.mozilla.org/de/docs/Web/API/EventTarget/addEventListener) finden Sie Informationen zum Registrieren von Events und Listenern
+- [\textcolor{blue}{Hier}](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) finden Sie Informationen zum Registrieren von Events und Listenern
 - [\textcolor{blue}{Hier}](https://www.w3schools.com/jsref/met_node_appendchild.asp) lernen Sie, wie Sie neue DOM-Elemente programmatisch erstellen
 
 - [\textcolor{blue}{Hier}](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) können Sie mehr über Keyboard Events erfahren, um Tastatureingaben abzufangen.
 - [\textcolor{blue}{Hier}](https://www.w3schools.com/jsref/obj_mouseevent.asp) erfahren Sie mehr über Maus-Events, um auf Klicks der Maus zu lauschen.
 
 - [\textcolor{blue}{Hier}](https://keycode.info/) finden Sie die Keycodes heraus, um auf Eingaben bestimmter Tasten reagieren zu können.
-- Wie Sie dynamisch CSS-Klassen Elementen hinzufügen und entfernen, können Sie [\textcolor{blue}{hier}](https://developer.mozilla.org/de/docs/Web/API/Element/classList,) nachlesen.
+- Wie Sie dynamisch CSS-Klassen Elementen hinzufügen und entfernen, können Sie [\textcolor{blue}{hier}](https://developer.mozilla.org/de/docs/Web/API/Element/classList) nachlesen.
 - Mehr zu Farben in CSS erfahren Sie [\textcolor{blue}{hier}](https://www.w3schools.com/cssref/css_colors.asp).
 - Mehr Informationen zu Rahmen ("Border") in CSS erhalten Sie [\textcolor{blue}{hier}](https://www.w3schools.com/css/css_border.asp).
 - Mehr zum Design des Mauszeigers ("Cursor") in CSS können Sie  [\textcolor{blue}{hier}](https://www.w3schools.com/cssref/pr_class_cursor.asp) erfahren.
