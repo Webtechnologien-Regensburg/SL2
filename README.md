@@ -22,7 +22,7 @@ header-includes: |
 
 # You vs. Will
 
-In dieser Aufgabe entwickeln Sie ein Spiel, mit dem Nutzer und Nutzerinnen ihr Wissen über den Wortschatz Shakespeare testen können. Die SpielerInnen haben dabei eine Minute Zeit möglichst viele der Worte einzugeben, die in den Dramen William Shakespeares verwendet wurden.
+In dieser Aufgabe entwickeln Sie ein Spiel, mit dem Nutzer und Nutzerinnen ihr Wissen über den Wortschatz Shakespeare testen können. Die SpielerInnen haben dabei eine Minute Zeit möglichst viele der Worte einzugeben, die in den Dramen William Shakespeares verwendet wurden. Das Spiel beginnt, sobald die SpielerInnen ein erstes Wort in das Input-Feld eingeben und die Enter-Taste betätigt wird. Das Spiel überprüft nun, ob das eingegebene Wort im Wortschatz vorhanden ist: Falls ja, wird das Wort als Wort-Treffer aufgelistet, andernfalls passiert nichts und das Eingabefeld wird geleert. Nach Ablauf von 60 Sekunden sind keine weiteren Eingaben mehr möglich und die SpielerInnen bekommen einen Ergebnistext angezeigt. Hierbei werden Informationen bezüglich der absoluten und prozentualen Wort-Treffer aufgelistet.
 
 ### Vorgaben
 
@@ -34,19 +34,21 @@ Um die Anwendung korrekt auszuführen, wird ein lokaler Webserver benötigt. Die
 
 ### Verpflichtende Anforderungen
 
-- Sobald die NutzerInnen das erste Wort im Eingabefeld eingegeben haben, läuft die 60-sekündige Spielrunde. Die Eingabe eines Wortes wird mit der Enter-Taste abgeschlossen.
+- Sobald die NutzerInnen das erste Wort im Eingabefeld eingegeben haben, soll die die 60-sekündige Spielrunde anlaufen. Die Eingabe eines Wortes wird mit der Enter-Taste abgeschlossen.
 - Für jedes eingegebene Wort wird geprüft, ob dies im eingelesenen Wortschatz vorhanden ist. Falls ja, wird ein neuer Eintrag in der HTML-Liste mit der CSS-Klasse `result-list` erstellt. Verwenden Sie für diese Einträge ein `<li>`-Element, das so aufgebaut ist: 
 
-	`<li><span class="count">${frequency}</span><span class="word">${word}</span></li>`
-	
-  Im Element wird das Wort selber sowie dessen absolute Häufigkeit im Korpus angezeigt. Diese Information finden Sie in der Eingangs eingelesenen Wortliste. Wörter werden nur einmal in der Ergebnissliste eingetragen.
-- Nach Ablauf der 60 Sekunden sind keine weiteren Eingaben möglich. Im HTML-Element mit der Klasse score wird den SpielerInnen ein kurzer Informationstext angezeigt, der mitteilt, wie viele Wörter sie erraten haben. Die Angabe erfolgt sowohl absolut als auch prozentual (auf die Gesamtanzahl der Wörter bezogen).
+	`<li><span class="count">will</span><span class="word">144</span></li>`
+  
+  Im Element wird das Wort selber sowie dessen absolute Häufigkeit im Korpus angezeigt. Diese Information finden Sie in der Eingangs eingelesenen Wortliste. Wörter sollen nur einmal in der Ergebnissliste eingetragen werden. Ersetzen Sie hierfür den obigen Beispiel-String dynamisch mit realen Daten, indem Sie den Inhalt der `<span>`-Elemente mit den Klassen `count`und `word` austauschen.
+  
+  
+- Nach Ablauf der 60 Sekunden sollen keine weiteren Eingaben mehr möglich sein. Im HTML-Element mit der Klasse score wird den SpielerInnen ein kurzer Informationstext angezeigt, der mitteilt, wie viele Wörter sie erraten haben. Geben Sie das Ergebnis sowohl absolut als auch prozentual (auf die Gesamtanzahl der Wörter bezogen) an.
 - Achten Sie auf eine hohe Codequalität. Verwenden Sie passende und verständliche Bezeichner. Kommentieren Sie Ihren Code dort wo nötig. Trennen Sie die verschiedenen Aufgabenbereiche Ihrer Anwendung voneinander und nutzen Sie dazu z.B. unterschiedliche JavaScript-Dateien.
 
 
 ### Optionale Anforderungen
 - Während der Spielrunde wird die noch verbleibende Zeit im Format MM:SS im HTML-Element mit der Klasse `time-output` angezeigt.
-	
+- Setzen Sie die Anlegung eines neuen Wortes in der HTML-Liste mit der CSS-Klasse `result-list` um, indem sie die JavaScript-Funktionalität von [\textcolor{blue}{Template Strings}](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Template_literals) verwenden, um ein neues und bereits befülltes Element zu erzeugen, welches an die Liste angehängt werden kann. 
 ------
 
 *Abgabekriterien:*
