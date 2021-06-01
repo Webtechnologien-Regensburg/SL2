@@ -35,12 +35,15 @@ Um die Anwendung korrekt auszuführen, wird ein lokaler Webserver benötigt. Die
 
 ### Verpflichtende Anforderungen
 
-<ul>
-	<li>Sobald die NutzerInnen das erste Wort im Eingabefeld eingegeben haben, läuft die 60-sekündige Spielrunde. Die Eingabe eines Wortes wird mit der Enter-Taste 	abgeschlossen.</li>
-	<li>Für jedes eingegebene Wort wird geprüft, ob dies im eingelesenen Wortschatz vorhanden ist. Falls ja, wird ein neuer Eintrag in der HTML-Liste mit der CSS-Klasse result-list erstellt. Verwenden Sie für diese Einträge ein <li>-Element, das so aufgebaut ist: ```<li><span class="count">${frequency}</span><span class="word">${word}</span></li>```. Im Element wird das Wort selber sowie dessen absolute Häufigkeit im Korpus angezeigt. Diese Information finden Sie in der Eingangs eingelesenen Wortliste. Wörter werden nur einmal in der Ergebnissliste eingetragen.</li>
-	<li>Nach Ablauf der 60 Sekunden sind keine weiteren Eingaben möglich. Im HTML-Element mit der Klasse score wird den SpielerInnen ein kurzer Informationstext angezeigt, der mitteilt, wie viele Wörter sie erraten haben. Die Angabe erfolgt sowohl absolut als auch prozentual (auf die Gesamtanzahl der Wörter bezogen).</li>
-	<li>Achten Sie auf eine hohe Codequalität. Verwenden Sie passende und verständliche Bezeichner. Kommentieren Sie Ihren Code dort wo nötig. Trennen Sie die verschiedenen Aufgabenbereiche Ihrer Anwendung voneinander und nutzen Sie dazu z.B. unterschiedliche JavaScript-Dateien.</li>
-</ul>
+- Sobald die NutzerInnen das erste Wort im Eingabefeld eingegeben haben, läuft die 60-sekündige Spielrunde. Die Eingabe eines Wortes wird mit der Enter-Taste abgeschlossen.
+- Für jedes eingegebene Wort wird geprüft, ob dies im eingelesenen Wortschatz vorhanden ist. Falls ja, wird ein neuer Eintrag in der HTML-Liste mit der CSS-Klasse `result-list` erstellt. Verwenden Sie für diese Einträge ein `<li>`-Element, das so aufgebaut ist: 
+
+	```<li><span class="count">${frequency}</span><span class="word">${word}</span></li>```
+	
+  Im Element wird das Wort selber sowie dessen absolute Häufigkeit im Korpus angezeigt. Diese Information finden Sie in der Eingangs eingelesenen Wortliste. Wörter werden nur einmal in der Ergebnissliste eingetragen.
+- Nach Ablauf der 60 Sekunden sind keine weiteren Eingaben möglich. Im HTML-Element mit der Klasse score wird den SpielerInnen ein kurzer Informationstext angezeigt, der mitteilt, wie viele Wörter sie erraten haben. Die Angabe erfolgt sowohl absolut als auch prozentual (auf die Gesamtanzahl der Wörter bezogen).
+- Achten Sie auf eine hohe Codequalität. Verwenden Sie passende und verständliche Bezeichner. Kommentieren Sie Ihren Code dort wo nötig. Trennen Sie die verschiedenen Aufgabenbereiche Ihrer Anwendung voneinander und nutzen Sie dazu z.B. unterschiedliche JavaScript-Dateien.
+
 
 ### Optionale Anforderungen
 <ul>
