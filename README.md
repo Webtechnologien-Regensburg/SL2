@@ -37,7 +37,7 @@ Um die Anwendung korrekt auszuführen, wird ein lokaler Webserver benötigt. Die
 - Sobald die NutzerInnen das erste Wort im Eingabefeld eingegeben haben, soll die die 60-sekündige Spielrunde anlaufen. Die Eingabe eines Wortes wird mit der Enter-Taste abgeschlossen.
 - Für jedes eingegebene Wort wird geprüft, ob dies im eingelesenen Wortschatz vorhanden ist. Falls ja, wird ein neuer Eintrag in der HTML-Liste mit der CSS-Klasse `result-list` erstellt. Verwenden Sie für diese Einträge ein `<li>`-Element, das so aufgebaut ist: 
 
-	`<li><span class="count">will</span><span class="word">144</span></li>`
+	`<li><span class="count">144</span><span class="word">will</span></li>`
   
   Im Element wird das Wort selber sowie dessen absolute Häufigkeit im Korpus angezeigt. Diese Information finden Sie in der Eingangs eingelesenen Wortliste. Wörter sollen nur einmal in der Ergebnissliste eingetragen werden. Ersetzen Sie hierfür den obigen Beispiel-String dynamisch mit realen Daten, indem Sie den Inhalt der `<span>`-Elemente mit den Klassen `count`und `word` austauschen.
   
