@@ -39,7 +39,7 @@ Um die Anwendung korrekt auszuführen, wird ein lokaler Webserver benötigt. Die
 
 	`<li><span class="count">144</span><span class="word">will</span></li>`
   
-  Im Element wird das Wort selber sowie dessen absolute Häufigkeit im Korpus angezeigt. Diese Information finden Sie in der Eingangs eingelesenen Wortliste. Wörter sollen nur einmal in der Ergebnissliste eingetragen werden. Ersetzen Sie hierfür den obigen Beispiel-String dynamisch mit realen Daten, indem Sie den Inhalt der `<span>`-Elemente mit den Klassen `count`und `word` austauschen.
+  Im Element wird das Wort selber sowie dessen absolute Häufigkeit im Korpus angezeigt. Diese Information finden Sie in der Eingangs eingelesenen Wortliste. Wörter sollen nur einmal in der Ergebnissliste eingetragen werden. Ersetzen Sie hierfür den obigen Beispiel-String dynamisch mit realen Daten, indem Sie den Inhalt der `<span>`-Elemente mit den Klassen `count` und `word` austauschen.
   
   
 - Nach Ablauf der 60 Sekunden sollen keine weiteren Eingaben mehr möglich sein. Im HTML-Element mit der Klasse score wird den SpielerInnen ein kurzer Informationstext angezeigt, der mitteilt, wie viele Wörter sie erraten haben. Geben Sie das Ergebnis sowohl absolut als auch prozentual (auf die Gesamtanzahl der Wörter bezogen) an.
