@@ -1,6 +1,6 @@
 ---
 title: Studienleistung 2
-author: Alexander Bazo und Jakob Fehle
+author: Alexander Bazo und Martin Kocur
 documentclass: scrartcl
 classoption:
   - a4paper
